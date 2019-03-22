@@ -1,1 +1,1 @@
-web: vendor/bin/heroku-php-apache2 -I .user.ini
+web: vendor/bin/heroku-hhvm-nginx -I .user.ini
