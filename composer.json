@@ -1,10 +1,10 @@
 {
-    "name": "itc/swe363-project-api",
-    "authors": [
-        {
-            "name": "Mohammed Alshahrani",
-            "email": "mmogib@gmail.com"
-        }
-    ],
-    "require": {}
+	"name": "itc/swe363-project-api",
+	"authors": [
+		{
+			"name": "Mohammed Alshahrani",
+			"email": "mmogib@gmail.com"
+		}
+	],
+	"require": {}
 }
