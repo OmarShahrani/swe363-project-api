@@ -35,7 +35,7 @@ class Migration_create_table_requests extends CI_Migration
 				'null' => true
 			],
 			'status' => [
-				'type' =>	'VARCHAP(50)'
+				'type' =>	'VARCHAR(50)'
 			],
 			'requestedAt' => [
 				'type' => 'DATE',
