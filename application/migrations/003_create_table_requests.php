@@ -38,10 +38,10 @@ class Migration_create_table_requests extends CI_Migration
 				'type' =>	'VARCHAP(50)'
 			],
 			'requestedAt' => [
-				'type' => 'DATETIME',
+				'type' => 'DATE',
 			],
 			'due' => [
-				'type' => 'DATETIME',
+				'type' => 'DATE',
 				'null' => true
 			],
 			'notes' => [
