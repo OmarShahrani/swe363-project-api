@@ -6,5 +6,7 @@
 			"email": "mmogib@gmail.com"
 		}
 	],
-	"require": {}
+	"require": {
+		"ext-sqlite3": "*"
+	}
 }
