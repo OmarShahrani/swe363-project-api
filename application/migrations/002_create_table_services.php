@@ -35,7 +35,7 @@ class Migration_create_table_services extends CI_Migration
 				'type' => 'VARCHAR(64)',
 			],
 			'status' => [
-				'type' =>	'VARCHAP(50)',
+				'type' =>	'VARCHAR(50)',
 				'default' => 'active'
 			]
 		);
@@ -64,8 +64,7 @@ class Migration_create_table_services extends CI_Migration
 	public function down()
 	{
 		if ($this->db->table_exists($this->table)) {
-				$this->dbforge->drop_table($this->table);
-			}
+			$this->dbforge->drop_table($this->table);
+		}
 	}
 }
-
