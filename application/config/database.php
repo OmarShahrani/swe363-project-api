@@ -70,16 +70,16 @@ defined('BASEPATH') or exit('No direct script access allowed');
 | The $query_builder variables lets you determine whether or not to load
 | the query builder class.
 */
-$active_group = 'postgres';
+$active_group = 'dev';
 $query_builder = true;
 
-$db['default'] = array(
+$db['dev'] = array(
 	'dsn'	=> '',
 	'hostname' => 'localhost',
-	'username' => '',
-	'password' => '',
-	'database' => '',
-	'dbdriver' => 'mysqli',
+	'username' => 'swe363admin',
+	'password' => 'adminpass',
+	'database' => 'swe363_api',
+	'dbdriver' => 'postgre',
 	'dbprefix' => '',
 	'pconnect' => false,
 	'db_debug' => (ENVIRONMENT !== 'production'),
